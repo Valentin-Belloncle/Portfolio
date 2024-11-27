@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: 'https://github.com/Valentin-Belloncle/portfolio',
   title: 'JS.',
 }
 
@@ -10,7 +10,7 @@ const about = {
   role: 'Développeur Frontend',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: 'https://cvdesignr.com/p/65134fbaaf584',
   social: {
     linkedin: 'https://linkedin.com/valentin-belloncle/',
     github: 'https://github.com/Valentin-Belloncle',
@@ -101,14 +101,13 @@ const skills = [
   'CSS',
   'JavaScript',
   'React',
-  'Redux',
   'SASS',
   'Git',
   ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'valentin.belloncle@hotmail.fr',
 }
 
 export { header, about, projects, skills, contact }

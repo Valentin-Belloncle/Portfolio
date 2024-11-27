@@ -1,6 +1,5 @@
 import { useContext, useState } from 'react'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
-import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
+import { Link } from 'react-router'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
@@ -19,41 +18,23 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
-        {projects.length ? (
-          <li className='nav__list-item'>
-            <a
-              href='#projects'
-              onClick={toggleNavList}
-              className='link link--nav'
-            >
-              Projets
-            </a>
-          </li>
-        ) : null}
+        <li className='nav__list-item'>
+          <Link to='/about' onClick={toggleNavList} className='link link--nav'>
+            À Propos
+          </Link>
+        </li>
 
-        {skills.length ? (
-          <li className='nav__list-item'>
-            <a
-              href='#skills'
-              onClick={toggleNavList}
-              className='link link--nav'
-            >
-              Compétences
-            </a>
-          </li>
-        ) : null}
+        <li className='nav__list-item'>
+          <Link to='/skills' onClick={toggleNavList} className='link link--nav'>
+            Compétences
+          </Link>
+        </li>
 
-        {contact.email ? (
           <li className='nav__list-item'>
-            <a
-              href='#contact'
-              onClick={toggleNavList}
-              className='link link--nav'
-            >
-              Contact
-            </a>
+          <Link to='/contact' onClick={toggleNavList} className='link link--nav'>
+            Contact
+          </Link>
           </li>
-        ) : null}
       </ul>
 
       <button

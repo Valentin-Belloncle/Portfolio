@@ -1,6 +1,7 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
+import Projects from '../Projects/Projects'
 import './About.css'
 
 const About = () => {
@@ -50,6 +51,7 @@ const About = () => {
           </>
         )}
       </div>
+        <Projects />
     </div>
   )
 }
