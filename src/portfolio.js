@@ -21,6 +21,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    id : 1,
     name: "Projet 1 : Booki",
     description:
       "Page d'accueil d'une agence de voyage qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
@@ -33,6 +34,7 @@ const projects = [
     livePreview: 'https://github.com/Valentin-Belloncle/Booki',
   },
   {
+    id : 2,
     name: "Projet 2 : Sophie Bluel",
     description:
       "Développement du front du portfolio d’une architecte d’intérieur permettant une connexion administrateur et l'ajout de photos par requête API.",
@@ -45,6 +47,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
+    id : 3,
     name: 'Projet 3 : Nina Carducci',
     description:
       "Correction de bugs et optimisation du référencement (SEO) d'un site de vente de service photographique.",
@@ -57,6 +60,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
+    id : 4,
     name: 'Projet 4 : Kasa',
     description:
       "Développement du front d'une application monopage de location d'appartement de particuliers à particuliers.",
@@ -69,6 +73,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
+    id : 5,
     name: 'Projet 5 : Mon Vieux Grimoire',
     description:
       "Développement de la partie back via API Rest et base de donnée noSQL d'un site de référencement et de notation de livres.",
@@ -78,18 +83,6 @@ const projects = [
       "Solution : Recherche dans la documentation de l'ORM Mongoose des formats de requête",
     stack: ['JavaScript', 'Node.js + Express', 'MongoDB'],
     sourceCode: 'https://github.com/Valentin-Belloncle/Mon-Vieux-Grimoire-back',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Projet 6 : Menu Maker',
-    description:
-      "Création des spécifications techniques d'une application permettant de créer des menus.",
-    difficulty:
-      "Difficulté majeure : Créations de solutions techniques permettant de répondre aux besoins fonctionnels",
-    solution:
-      "Solution : Recherche dans des articles présent dans mon système de veille",
-    stack: ['Trello', 'UML'],
-    sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
 ]

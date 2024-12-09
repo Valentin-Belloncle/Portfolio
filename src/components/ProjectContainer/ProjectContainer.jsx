@@ -1,16 +1,18 @@
+import { Link } from 'react-router'
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
+  <Link to={`/project/${project.id}`} className='project'>
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>
-    <p className='project__difficulty'>{project.difficulty}
+    <p className='project__difficulty'>
+      {project.difficulty}
       <p>{project.solution}</p>
     </p>
-    
+
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -30,7 +32,7 @@ const ProjectContainer = ({ project }) => (
         <GitHubIcon />
       </a>
     )}
-  </div>
+  </Link>
 )
 
 export default ProjectContainer
