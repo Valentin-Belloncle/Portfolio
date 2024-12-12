@@ -1,11 +1,9 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://github.com/Valentin-Belloncle/portfolio',
   title: 'JS.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Valentin Belloncle',
   role: 'Développeur Frontend',
   description:
@@ -18,69 +16,97 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    id : 1,
-    name: "Projet 1 : Booki",
+    id: 1,
+    name: 'Projet 1 : Booki',
+    date: 'Mars 2024',
+    role: 'Développeur Front-End',
     description:
       "Page d'accueil d'une agence de voyage qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-    difficulty:
-      "Difficulté majeure : Mise en page des éléments les uns avec les autres",
-    solution:
-      "Solution : Utilisation du guide 'Flexbox' sur css-trick.com",
+    objective: [
+      'Implémenter une interface responsive avec HTML et CSS',
+      'Intégrer du contenu conformément à une maquette avec HTML et CSS',
+      'Versionner son projet avec Git et Github',
+      'Installer un environnement de développement front-end',
+    ],
+    difficulty: 'Mise en page des éléments les uns avec les autres',
+    solution: "Utilisation du guide 'Flexbox' sur css-trick.com",
     stack: ['HTML', 'CSS'],
     sourceCode: 'https://github.com/Valentin-Belloncle/Booki',
     livePreview: 'https://github.com/Valentin-Belloncle/Booki',
   },
   {
-    id : 2,
-    name: "Projet 2 : Sophie Bluel",
+    id: 2,
+    name: 'Projet 2 : Sophie Bluel',
+    date: 'Mai 2024',
+    role: 'Développeur Front-End',
     description:
       "Développement du front du portfolio d’une architecte d’intérieur permettant une connexion administrateur et l'ajout de photos par requête API.",
-    difficulty:
-      "Difficulté majeure : Création des requètes API (Bearer Token)",
-    solution:
-      "Solution : Utilisation de l'application Postman",
+    objective: [
+      'Gérer les événements utilisateurs avec JavaScript',
+      'Manipuler les éléments du DOM avec JavaScript',
+      'Récupérer les données utilisateurs dans le JavaScript via des formulaires',
+    ],
+    difficulty: 'Création des requètes API (Bearer Token)',
+    solution: "Utilisation de l'application Postman",
     stack: ['HTML', 'CSS', 'JavaScript'],
     sourceCode: 'https://github.com/Valentin-Belloncle/Projet-3-Sophie-Bluel',
     livePreview: 'https://github.com',
   },
   {
-    id : 3,
+    id: 3,
     name: 'Projet 3 : Nina Carducci',
+    date: 'Juillet 2024',
+    role: 'Développeur Front-End / Consultant SEO',
     description:
       "Correction de bugs et optimisation du référencement (SEO) d'un site de vente de service photographique.",
-     difficulty:
-      "Difficulté majeure : Utilisation de balises meta pour le référencement local",
-    solution:
-      "Solution : Guide et exemples sur les microdonnées de Schema.org ",
+    objective: [
+      'Optimiser les performances d’un site web',
+      'Débugger un site web grâce aux Chrome DevTools',
+      'Rédiger un cahier de recette pour tester un site',
+    ],
+    difficulty: 'Utilisation de balises meta pour le référencement local',
+    solution: 'Guide et exemples sur les microdonnées de Schema.org ',
     stack: ['HTML', 'CSS', 'JavaScript'],
     sourceCode: 'https://github.com/Valentin-Belloncle/Nina-Carducci-Dev',
     livePreview: 'https://github.com',
   },
   {
-    id : 4,
+    id: 4,
     name: 'Projet 4 : Kasa',
+    date: 'Août 2024',
+    role: 'Développeur Front-End',
     description:
       "Développement du front d'une application monopage de location d'appartement de particuliers à particuliers.",
-    difficulty:
-      "Difficulté majeure : Utilisation des modules scss et des classes déclarées",
+    objective: [
+      'Initialiser une application avec Create React App',
+      "Configurer la navigation entre les pages de l'application avec React Router",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React",
+      'Mettre en œuvre des animations CSS',
+      'Développer une interface web avec Sass',
+    ],
+    difficulty: 'Utilisation des modules scss et des classes déclarées',
     solution:
-      "Solution : Recherche dans la documentation de l'outil Create React Application",
+      "Recherche dans la documentation de l'outil Create React Application",
     stack: ['SASS', 'JavaScript', 'React'],
     sourceCode: 'https://github.com/Valentin-Belloncle/Kasa',
     livePreview: 'https://github.com',
   },
   {
-    id : 5,
+    id: 5,
     name: 'Projet 5 : Mon Vieux Grimoire',
+    date: 'Septembre 2024',
+    role: 'Développeur Back-End',
     description:
       "Développement de la partie back via API Rest et base de donnée noSQL d'un site de référencement et de notation de livres.",
-    difficulty:
-      "Difficulté majeure : Requêtes en base de donnée avec conditions",
+    objective: [
+      'Implémenter un modèle logique de données conformément à la réglementation',
+      'Mettre en œuvre des opérations CRUD de manière sécurisée',
+      'Stocker des données de manière sécurisée',
+    ],
+    difficulty: 'Requêtes en base de donnée avec conditions',
     solution:
-      "Solution : Recherche dans la documentation de l'ORM Mongoose des formats de requête",
+      "Recherche dans la documentation de l'ORM Mongoose des formats de requête",
     stack: ['JavaScript', 'Node.js + Express', 'MongoDB'],
     sourceCode: 'https://github.com/Valentin-Belloncle/Mon-Vieux-Grimoire-back',
     livePreview: 'https://github.com',
@@ -88,18 +114,14 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'React',
-  'SASS',
-  'Git',
-  ]
+  { skill: 'HTML', percent: '80%' },
+  { skill: 'CSS', percent: '80%' },
+  { skill: 'JavaScript', percent: '60%' },
+  { skill: 'React', percent: '50%' },
+  { skill: 'Git', percent: '50%' },
+]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'valentin.belloncle@hotmail.fr',
 }
 

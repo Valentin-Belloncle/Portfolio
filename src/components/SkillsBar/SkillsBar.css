@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+}
+
+.bar {
+  text-align: right;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.HTML {background-color: #04AA6D;}
+.CSS { background-color: #1064a8;}
+.JavaScript {background-color: #f44336;}
+.React {background-color: #36c8f4;}
+.Git {background-color: #e6d927;}

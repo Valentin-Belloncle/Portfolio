@@ -34,7 +34,12 @@ main {
 }
 
 .section {
-  margin-top: 5em;
+  margin: 0.5em 0;
+}
+
+div + .section{
+  margin-top: 2.5em;
+
 }
 
 .section__title {
