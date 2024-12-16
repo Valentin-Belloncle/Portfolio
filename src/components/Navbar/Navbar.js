@@ -16,21 +16,13 @@ const Navbar = () => {
         className='nav__list'
       >
         <li className='nav__list-item'>
-          <Link
-            to='/about'
-            onClick={toggleNavList}
-            className='link link--nav'
-          >
-            À Propos
+          <Link to='/about' onClick={toggleNavList} className='link link--nav'>
+            Accueil
           </Link>
         </li>
 
         <li className='nav__list-item'>
-          <Link
-            to='/skills'
-            onClick={toggleNavList}
-            className='link link--nav'
-          >
+          <Link to='/skills' onClick={toggleNavList} className='link link--nav'>
             Compétences
           </Link>
         </li>

@@ -1,3 +1,4 @@
+const profilePicture = require("./picture/profile_picture.jpg");
 
 const project1main = require("./project_1/main_img.png");
 const project1secondary = require("./project_1/secondary_img.png");
@@ -44,7 +45,8 @@ const tertiary = {
 const images = {
     "main": main,
     "secondary": secondary,
-    "tertiary": tertiary
+    "tertiary": tertiary,
+    "picture": profilePicture
 }
 
 export default images;

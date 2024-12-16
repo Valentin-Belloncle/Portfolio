@@ -7,10 +7,10 @@ const about = {
   name: 'Valentin Belloncle',
   role: 'Développeur Frontend',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "Ancien professeur en reconversion, je suis passionné par le développement web, un domaine qui allie créativité et logique. Ma formation sur OpenClassrooms m’a permis d’acquérir les compétences nécessaires pour concevoir des projets modernes et accessibles. Autonome, curieux et motivé par les défis, j’aime explorer de nouvelles technologies et améliorer continuellement mes compétences pour proposer des solutions performantes et adaptées aux besoins.",
   resume: 'https://cvdesignr.com/p/65134fbaaf584',
   social: {
-    linkedin: 'https://linkedin.com/valentin-belloncle/',
+    linkedin: 'https://linkedin.com/in/valentin-belloncle',
     github: 'https://github.com/Valentin-Belloncle',
   },
 }

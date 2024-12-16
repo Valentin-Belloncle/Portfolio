@@ -1,6 +1,11 @@
 #projectPage{
   padding: 0 2.5em;
 }
+
+h2 .link{
+  margin-left: 20px;
+}
+
 .context {
   display: flex;
   justify-content: center;

@@ -7,6 +7,10 @@
   padding: 0 1em;
 }
 
+.header .link--icon {
+  margin-left: 0.8em;
+}
+
 @media (max-width: 600px) {
   .header {
     height: 6em;

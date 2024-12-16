@@ -11,18 +11,27 @@
   margin-top: 1.2em;
 }
 
+.about__profile {
+  display: flex;
+  gap: 2rem;
+}
+
+.about__profile img{
+  max-height: 200px;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  text-align: justify;
 }
 
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
-}
-
-.about .link--icon {
-  margin-right: 0.8em;
 }
 
 .about .btn--outline {
@@ -32,6 +41,20 @@
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
-    margin-top: 2em;
+    padding: 0;
   }
+
+  .about h1{
+    font-size: 30px
+  }
+
+  .about__role{
+    font-size: medium;
+  }
+
+  .about__profile {
+    display: block;
+    gap: 2rem;
+  }
+
 }
